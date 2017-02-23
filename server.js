@@ -13,19 +13,22 @@ app.get('/MonitorUM', function (request, response){
   console.log(' redirect to : ' + path.resolve(__dirname, 'MonitorUM', 'index.html'))
   response.sendFile(path.resolve(__dirname, 'MonitorUM', 'index.html'))
 })
+/*
 app.get('/MonitorUM/*', function (request, response){
   console.log(' redirect to : ' + path.resolve(__dirname, 'MonitorUM', 'index.html'))
   response.sendFile(path.resolve(__dirname, 'MonitorUM', 'index.html'))
 })
+*/
 
 app.get('/SimuladorUM', function (request, response){
   console.log(' redirect to : ' + path.resolve(__dirname, 'SimuladorUM', 'index.html'))
   response.sendFile(path.resolve(__dirname, 'SimuladorUM', 'index.html'))
 })
+/*
 app.get('/SimuladorUM/*', function (request, response){
   console.log(' redirect to : ' + path.resolve(__dirname, 'SimuladorUM', 'index.html'))
   response.sendFile(path.resolve(__dirname, 'SimuladorUM', 'index.html'))
 })
-
+*/
 app.listen(port)
 console.log("server started on port " + port)
