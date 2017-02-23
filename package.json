@@ -1,0 +1,23 @@
+{
+  "name": "webappnodeazure",
+  "version": "0.0.1",
+  "description": "Reporitorio GitHub para Azure WebApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadc019/WebAppNodeAzure.git"
+  },
+  "author": "rimac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadc019/WebAppNodeAzure/issues"
+  },
+  "homepage": "https://github.com/jadc019/WebAppNodeAzure#readme",
+  "engines": {
+     "node": "6.9.1"
+  }
+}
