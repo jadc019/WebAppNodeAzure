@@ -4,12 +4,12 @@ const port = process.env.PORT || 80
 const app = express()
 
 // serve static assets normally
-app.use(express.static(__dirname + '/monitorum'))
+app.use(express.static(__dirname + '/assets'))
 
 // handle every other route with index.html, which will contain
 // a script tag to your application's JavaScript file(s).
 app.get('*', function (request, response){
-  response.sendFile(path.resolve(__dirname, 'monitorum', 'index.html'))
+  response.sendFile(path.resolve(__dirname, 'assets', 'index.html'))
 })
 
 app.listen(port)
